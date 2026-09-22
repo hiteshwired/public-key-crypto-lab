@@ -5,6 +5,3 @@ __pycache__/
 *.egg-info/
 .venv/
 venv/
-
-# course-provided PDF handouts (not redistributed publicly)
-*.pdf
