@@ -1,0 +1,723 @@
+{
+  "pbtResults": {
+    "2.2 Write property test for Diffie-Hellman shared secret agreement": {
+      "status": "passed",
+      "lastRunTimestamp": 1789950464276
+    },
+    "3.2 Write property test for deterministic AES key derivation": {
+      "status": "passed",
+      "lastRunTimestamp": 1789950825312
+    },
+    "3.4 Write property test for MITM-derived key round trip": {
+      "status": "passed",
+      "lastRunTimestamp": 1789950987710
+    },
+    "13.2 Write property test for RSA signature forgery via multiplicative combination": {
+      "status": "passed",
+      "lastRunTimestamp": 1789951838825
+    }
+  },
+  "executionHistory": {
+    "1.1 Write property test for RSA modular inverse correctness": [
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950192823
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950202594
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950327141
+      }
+    ],
+    "2.1 Implement `dh_generate_private(q)`, `dh_public_value(g, x, q)`, `dh_shared_secret(peer_public, x, q)`": [
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950193370
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950331570
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950420679
+      }
+    ],
+    "2.2 Write property test for Diffie-Hellman shared secret agreement": [
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950193532
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950426115
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950715528
+      }
+    ],
+    "2.3 Add `DH_1024_Q_HEX`, `DH_1024_G`, and `dh_real_params()` with the exact IETF 1024-bit MODP hex constant": [
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950193583
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950427543
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950716578
+      }
+    ],
+    "2.4 Write unit test for IETF 1024-bit MODP constants": [
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950193650
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950724270
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950916941
+      }
+    ],
+    "3.1 Implement `derive_aes_key(shared_secret_int)` using SHA-256 over the integer's byte representation, truncating the digest to 16 bytes to produce an AES-128 key": [
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950193693
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950428662
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950718040
+      }
+    ],
+    "3.2 Write property test for deterministic AES key derivation": [
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950193733
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950725305
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950914425
+      }
+    ],
+    "3.3 Implement `aes_cbc_encrypt(key, plaintext_bytes)` and `aes_cbc_decrypt(key, iv_and_ciphertext)` using PyCryptodome, with random IV, PKCS7 padding, and `iv + ciphertext` framing": [
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950193812
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950726755
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950915890
+      }
+    ],
+    "3.4 Write property test for MITM-derived key round trip": [
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950193866
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950921794
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950997480
+      }
+    ],
+    "4. Checkpoint - Ensure all helpers.py tests pass": [
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950193926
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789952051369
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789952071928
+      }
+    ],
+    "5.1 Implement `rsa_generate_keypair(bits=512, e=65537)` using `Crypto.Util.number.getPrime`, computing `n`, `phi`, and `d` via `mod_inverse`": [
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950193963
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950332790
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950421888
+      }
+    ],
+    "5.2 Implement `rsa_encrypt(m, pub)`, `rsa_decrypt(c, priv)`, `rsa_sign(m, priv)`, `rsa_verify(s, pub)`": [
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950193999
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950429770
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950719109
+      }
+    ],
+    "5.3 Write property test for RSA encrypt/decrypt round trip": [
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950194048
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950727516
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950917645
+      }
+    ],
+    "6. Checkpoint - Ensure all tests pass": [
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950194087
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789952077279
+      }
+    ],
+    "7.1 Write toy-parameter DH exchange demo": [
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950194129
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789951002843
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789951282165
+      }
+    ],
+    "7.2 Write unit test for toy-parameter DH exchange": [
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950194178
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789951289341
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789951474852
+      }
+    ],
+    "7.3 Write real-parameter (IETF 1024-bit) DH exchange demo": [
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950194247
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789951290064
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789951474767
+      }
+    ],
+    "7.4 Derive and print a 16-byte AES-128 key from the shared secret using `helpers.derive_aes_key`": [
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950194284
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789951762889
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789951898381
+      }
+    ],
+    "8.1 Set up Alice/Bob DH exchange and simulate Mallory substituting `q` for both `YA` and `YB`": [
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950194328
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789951004312
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789951282206
+      }
+    ],
+    "8.2 Show Alice and Bob each independently compute a shared secret of 0 mod q using the tampered value": [
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950194364
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789951291609
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789951474912
+      }
+    ],
+    "8.3 Write property test for zero shared secret from base-value tampering": [
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950194405
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789951761904
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789951900527
+      }
+    ],
+    "8.4 Derive Mallory's 16-byte AES-128 key from shared secret 0 and demonstrate decrypting an AES-CBC message Alice encrypts for Bob": [
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950194444
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789951909894
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789952034979
+      }
+    ],
+    "9.1 Run the DH exchange three times with `alpha = 1`, `alpha = q`, `alpha = q - 1`, keeping `q` fixed, printing results and an explanation for each case": [
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950194486
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789951292597
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789951474881
+      }
+    ],
+    "9.2 Write property test for constant shared secret with alpha=1": [
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950194531
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789951760841
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789951902722
+      }
+    ],
+    "9.3 Write property test for two-value shared secret with alpha=q-1": [
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950194568
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789951760141
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789951899427
+      }
+    ],
+    "9.4 Write smoke test confirming all three generator-tampering cases run without error and print expected explanatory text": [
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950194612
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789951910828
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789952030736
+      }
+    ],
+    "10. Checkpoint - Ensure all tests pass": [
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950194660
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789952080587
+      }
+    ],
+    "11.1 Call `helpers.rsa_generate_keypair()`, pick a plaintext integer `m < n`, encrypt and decrypt, print all values and confirm the round trip": [
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950194727
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789951005397
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789951282325
+      }
+    ],
+    "11.2 Write unit test confirming keygen produces n = p*q and phi = (p-1)*(q-1) for a generated keypair": [
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950194768
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789951293662
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789951444467
+      }
+    ],
+    "12.1 Implement r-multiplication variant: pick blinding factor `r`, compute `c_prime = (c * pow(r, e, n)) % n`, decrypt with the real private key, show result equals `(m * r) % n`": [
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950194814
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789951006838
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789951282236
+      }
+    ],
+    "12.2 Write property test for RSA malleability via blinding factor multiplication": [
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950194866
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789951758974
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789951901626
+      }
+    ],
+    "12.3 Implement direct-target variant: pick target `t`, compute `r = (t * helpers.mod_inverse(m, n)) % n`, compute `c_prime = (c * pow(r, e, n)) % n`, decrypt, show result equals `t` exactly": [
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950194911
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789951480329
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789951609717
+      }
+    ],
+    "12.4 Write property test for RSA malleability to an attacker-chosen target value": [
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950194947
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789951911960
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789952031810
+      }
+    ],
+    "12.5 Print explanation tying both malleability variants back to the key-exchange security implication": [
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950194998
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789951912681
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789952032990
+      }
+    ],
+    "13.1 Sign two messages `m1`, `m2` with `helpers.rsa_sign`, compute `s3 = (s1 * s2) % n` and `m3 = (m1 * m2) % n` without touching the private key, verify `helpers.rsa_verify(s3, pub) == m3`": [
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950195045
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789951008017
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789951282297
+      }
+    ],
+    "13.2 Write property test for RSA signature forgery via multiplicative combination": [
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950195096
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789951757954
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789951903413
+      }
+    ],
+    "13.3 Print explanation of why the multiplicative relationship breaks unforgeability for raw RSA signatures": [
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950195136
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789951481250
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789951752407
+      }
+    ],
+    "14. Final checkpoint - Ensure all tests pass": [
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950195182
+      },
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789952086188
+      }
+    ],
+    "1. Set up project files and modular inverse primitive": [
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950327194
+      }
+    ],
+    "2. Implement Diffie-Hellman primitives and IETF 1024-bit constants in helpers.py": [
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950916978
+      }
+    ],
+    "5. Implement RSA primitives in helpers.py": [
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950917738
+      }
+    ],
+    "3. Implement key derivation and AES-CBC wrappers in helpers.py": [
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789950997538
+      }
+    ],
+    "11. Implement task3.py: RSA keygen/encrypt/decrypt self-test": [
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789951444572
+      }
+    ],
+    "7. Implement task1.py: Diffie-Hellman demos": [
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789951898480
+      }
+    ],
+    "13. Implement task3.py: RSA signature forgery demo": [
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789951903476
+      }
+    ],
+    "9. Implement task2.py: generator-tampering attack demo": [
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789952030798
+      }
+    ],
+    "12. Implement task3.py: RSA malleability key-exchange attack": [
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789952033037
+      }
+    ],
+    "8. Implement task2.py: MITM key-fixing attack demo": [
+      {
+        "executionId": "fcf2ffa2-89f3-4a7a-98c2-c8352de8637c",
+        "chatSessionId": "sess_4fedd051-8752-40bc-91a7-063577879b1b",
+        "timestamp": 1789952035031
+      }
+    ]
+  }
+}
